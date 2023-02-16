@@ -12,8 +12,6 @@ namespace FizzBuzz
         {
             Console.WriteLine("Podaj Liczbę");
             var result = new FizzBuzz();
-            
-
         }
     }
 }
