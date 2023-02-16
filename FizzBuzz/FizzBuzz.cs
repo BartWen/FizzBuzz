@@ -34,6 +34,8 @@ namespace FizzBuzz
             {
                 Console.WriteLine($"{userNunmber}");         
             }*/
+
+
             //jak na końcu jest if zamist else to działa dobrze,
             //przy else działa tylko przy komunukacie FizzBuzz,
             //przy Fizz i Buzz osobno wyświetla jeszcze liczbe dodatkowa ( taj jakby z pod else)
