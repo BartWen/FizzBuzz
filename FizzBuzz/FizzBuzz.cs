@@ -28,18 +28,19 @@ namespace FizzBuzz
             }
             else
             {
-                Console.WriteLine($"{userNunmber}");
+                
+                Console.WriteLine($"{userNunmber.ToString()}");
             }
             /*if(userNunmber % 5 != 0 & userNunmber % 3 != 0)
             {
-                Console.WriteLine($"{userNunmber}");         
+                Console.WriteLine($"{userNunmber.ToString()}");         
             }*/
 
 
             //jak na końcu jest if zamist else to działa dobrze,
             //przy else działa tylko przy komunukacie FizzBuzz,
-            //przy Fizz i Buzz osobno wyświetla jeszcze liczbe dodatkowa ( taj jakby z pod else)
-            // Co może byc powodem?
+            //przy Fizz i Buzz wyświetla jeszcze liczbe dodatkowa ( taj jakby z pod else)
+            // Dlaczego tak jest?
         }   
         private int GetUserNumber()
         {
